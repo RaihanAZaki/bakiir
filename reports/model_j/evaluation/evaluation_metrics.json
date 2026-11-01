@@ -1,0 +1,148 @@
+{
+  "model": "binary_rotation_robust",
+  "validation_count": 117,
+  "normal_validation": {
+    "angle": 0,
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "fresh_recall": 1.0,
+    "rotten_recall": 1.0,
+    "confusion_matrix": [
+      [
+        57,
+        0
+      ],
+      [
+        0,
+        60
+      ]
+    ]
+  },
+  "rotations": [
+    {
+      "angle": 0,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "fresh_recall": 1.0,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "angle": 45,
+      "accuracy": 0.8632478632478633,
+      "macro_precision": 0.8904109589041096,
+      "macro_recall": 0.8666666666666667,
+      "macro_f1": 0.8615384615384616,
+      "fresh_recall": 1.0,
+      "rotten_recall": 0.7333333333333333,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          16,
+          44
+        ]
+      ]
+    },
+    {
+      "angle": 90,
+      "accuracy": 0.9914529914529915,
+      "macro_precision": 0.9918032786885246,
+      "macro_recall": 0.9912280701754386,
+      "macro_f1": 0.9914429898339794,
+      "fresh_recall": 0.9824561403508771,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          56,
+          1
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "angle": 135,
+      "accuracy": 0.6923076923076923,
+      "macro_precision": 0.8064516129032258,
+      "macro_recall": 0.7,
+      "macro_f1": 0.6657142857142857,
+      "fresh_recall": 1.0,
+      "rotten_recall": 0.4,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          36,
+          24
+        ]
+      ]
+    },
+    {
+      "angle": 180,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "fresh_recall": 1.0,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "angle": 270,
+      "accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "fresh_recall": 1.0,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    }
+  ],
+  "mean_rotation_accuracy": 0.9245014245014245,
+  "mean_rotation_macro_f1": 0.9197826228477878,
+  "half_fresh_count": 61,
+  "half_fresh_predictions": {
+    "Fresh": 46,
+    "Rotten": 15
+  },
+  "external_photo_count": 4,
+  "external_majority_agreement": 1.0
+}

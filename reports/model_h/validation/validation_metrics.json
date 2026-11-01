@@ -1,0 +1,75 @@
+{
+  "total_images": 178,
+  "segmentation_success": 178,
+  "segmentation_failed": 0,
+  "prediction_changed": 59,
+  "original_full": {
+    "accuracy": 0.9438202247191011,
+    "macro_precision": 0.9434378295465439,
+    "macro_recall": 0.9434378295465439,
+    "macro_f1": 0.9434378295465439,
+    "confusion_matrix": [
+      [
+        52,
+        5,
+        0
+      ],
+      [
+        5,
+        56,
+        0
+      ],
+      [
+        0,
+        0,
+        60
+      ]
+    ]
+  },
+  "original_on_successful_subset": {
+    "accuracy": 0.9438202247191011,
+    "macro_precision": 0.9434378295465439,
+    "macro_recall": 0.9434378295465439,
+    "macro_f1": 0.9434378295465439,
+    "confusion_matrix": [
+      [
+        52,
+        5,
+        0
+      ],
+      [
+        5,
+        56,
+        0
+      ],
+      [
+        0,
+        0,
+        60
+      ]
+    ]
+  },
+  "segmented_on_successful_subset": {
+    "accuracy": 0.6685393258426966,
+    "macro_precision": 0.7648908620051794,
+    "macro_recall": 0.6742258652094718,
+    "macro_f1": 0.6518028419537135,
+    "confusion_matrix": [
+      [
+        57,
+        0,
+        0
+      ],
+      [
+        22,
+        39,
+        0
+      ],
+      [
+        23,
+        14,
+        23
+      ]
+    ]
+  }
+}

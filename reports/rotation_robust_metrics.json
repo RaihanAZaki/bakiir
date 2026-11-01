@@ -1,0 +1,9 @@
+{
+  "model": "rotation_robust",
+  "base_model": "finetuning_advanced",
+  "validation_accuracy": 0.9438202381134033,
+  "validation_loss": 0.125157430768013,
+  "epochs_completed": 15,
+  "learning_rate_initial": 2e-06,
+  "fine_tune_layers": 50
+}

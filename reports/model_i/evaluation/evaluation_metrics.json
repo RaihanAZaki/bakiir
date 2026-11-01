@@ -1,0 +1,28 @@
+{
+  "validation_count": 117,
+  "validation_accuracy": 0.8034188034188035,
+  "validation_macro_f1": 0.7932067932067932,
+  "confusion_matrix": [
+    [
+      34,
+      23
+    ],
+    [
+      0,
+      60
+    ]
+  ],
+  "half_fresh_count": 61,
+  "half_fresh_predicted_as": {
+    "Fresh": 17,
+    "Rotten": 44
+  },
+  "external_photo_count": 4,
+  "external_majority_agreement": 0.75,
+  "limitations": [
+    "Half-Fresh has no target class in Model I.",
+    "External photos have no verified freshness label.",
+    "Validation data have been used during development.",
+    "Egg identity independence is not established."
+  ]
+}

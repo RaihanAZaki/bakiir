@@ -1,0 +1,10 @@
+pair_number,split_a,split_b,class_a,class_b,phash_distance,ssim,mae,path_a,path_b
+1,train,valid,Rotten,Rotten,0,0.9696999489986678,3.492039918899536,dataset/cleaned/train/Rotten/Chicken_White_Layer_aaa00b0922d9876e.jpg,dataset/cleaned/valid/Rotten/Chicken_White_Layer_75fab9ee48ed7eab.jpg
+2,train,valid,Rotten,Rotten,0,0.9389485244502724,4.511159420013428,dataset/cleaned/train/Rotten/Chicken_Country_bd2aa72aab049514.jpg,dataset/cleaned/valid/Rotten/Chicken_Country_0179d37bbe748041.jpg
+3,train,valid,Rotten,Rotten,0,0.9602403213696091,2.716069459915161,dataset/cleaned/train/Rotten/Chicken_Country_7e4c905688d4d81d.jpg,dataset/cleaned/valid/Rotten/Chicken_Country_d8e0275ba6bdb77e.jpg
+6,train,test,Fresh,Half-Fresh,0,0.9875309733291003,5.9351959228515625,dataset/cleaned/train/Fresh/Chicken_Red_Layer_8c867c012677ae3c.jpg,dataset/cleaned/test/Half-Fresh/Chicken_Red_Layer_34788f41a34c594b.jpg
+8,test,train,Fresh,Half-Fresh,0,0.991677728443081,5.628133296966553,dataset/cleaned/test/Fresh/Chicken_Country_bf8a664438e70596.jpg,dataset/cleaned/train/Half-Fresh/Chicken_Country_c3414bb75d2be0ba.jpg
+9,train,test,Fresh,Half-Fresh,0,0.9889422450893626,5.924341678619385,dataset/cleaned/train/Fresh/Chicken_Red_Layer_491d9835fb05da28.jpg,dataset/cleaned/test/Half-Fresh/Chicken_Red_Layer_5edd0708d6270d1e.jpg
+10,train,valid,Fresh,Half-Fresh,0,0.9907620591894775,5.411183834075928,dataset/cleaned/train/Fresh/Chicken_Country_a5899096fba2742d.jpg,dataset/cleaned/valid/Half-Fresh/Chicken_Country_8c1466f651a22d9f.jpg
+14,train,valid,Rotten,Rotten,2,0.8903340011874374,2.9523162841796875,dataset/cleaned/train/Rotten/Chicken_Red_Layer_db9391ddc1bebfbd.jpg,dataset/cleaned/valid/Rotten/Chicken_Red_Layer_5d35c0b14ca4e65c.jpg
+16,train,valid,Fresh,Half-Fresh,2,0.9913471746327475,5.77185583114624,dataset/cleaned/train/Fresh/Chicken_Country_ff547b4dc7a719c0.jpg,dataset/cleaned/valid/Half-Fresh/Chicken_Country_08a3eb184aa80419.jpg

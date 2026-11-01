@@ -1,0 +1,27 @@
+{
+  "model": "binary_rotation_robust",
+  "base_model": "models/rotation_robust.keras",
+  "classes": [
+    "Fresh",
+    "Rotten"
+  ],
+  "train_count": 556,
+  "validation_count": 117,
+  "selected_stage": "fine_tuning",
+  "head_validation_loss": 0.15145842730998993,
+  "head_validation_accuracy": 0.9829059839248657,
+  "fine_validation_loss": 0.009842040948569775,
+  "fine_validation_accuracy": 1.0,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "confusion_matrix": [
+    [
+      57,
+      0
+    ],
+    [
+      0,
+      60
+    ]
+  ]
+}

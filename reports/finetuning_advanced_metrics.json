@@ -1,0 +1,6 @@
+{
+  "model": "finetuning_advanced",
+  "validation_accuracy": 0.9550561904907227,
+  "validation_loss": 0.12747503817081451,
+  "epochs_completed": 7
+}

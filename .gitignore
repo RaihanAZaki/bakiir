@@ -1,0 +1,26 @@
+# Dataset
+dataset/
+
+# Node.js
+node_modules/
+.next/
+dist/
+
+# Python
+.venv/
+.venv-old/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Git backup
+.git-backup/
+
+# Cache
+.pytest_cache/
+.DS_Store
+weights/clip/ViT-B-32.pt

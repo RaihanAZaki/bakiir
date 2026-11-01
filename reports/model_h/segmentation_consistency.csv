@@ -1,0 +1,4 @@
+method,total_photos,majority_agreement,distinct_predictions
+original,4,0.5,2
+segmentation,4,0.75,2
+segmentation_tta,4,0.75,2

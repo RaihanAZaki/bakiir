@@ -1,0 +1,36 @@
+{
+  "model": "models/binary_freshness.keras",
+  "total_images": 117,
+  "tensorflow": {
+    "accuracy": 0.7692307692307693,
+    "macro_f1": 0.752990851513019,
+    "confusion_matrix": [
+      [
+        30,
+        27
+      ],
+      [
+        0,
+        60
+      ]
+    ]
+  },
+  "pil": {
+    "accuracy": 0.8034188034188035,
+    "macro_f1": 0.7932067932067932,
+    "confusion_matrix": [
+      [
+        34,
+        23
+      ],
+      [
+        0,
+        60
+      ]
+    ]
+  },
+  "prediction_changed_count": 4,
+  "mean_pixel_mae": 0.8937259912490845,
+  "max_pixel_difference": 9.826558113098145,
+  "exactly_identical_image_count": 0
+}

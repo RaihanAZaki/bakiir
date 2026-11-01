@@ -1,0 +1,29 @@
+{
+  "model": "binary_freshness",
+  "classes": [
+    "Fresh",
+    "Rotten"
+  ],
+  "training_images": 556,
+  "validation_images": 117,
+  "selected_stage": "fine_tuning",
+  "head_validation_loss": 0.6109633445739746,
+  "head_validation_accuracy": 0.6410256624221802,
+  "finetuning_validation_loss": 0.5630525350570679,
+  "finetuning_validation_accuracy": 0.7692307829856873,
+  "accuracy": 0.7692307692307693,
+  "macro_precision": 0.8448275862068966,
+  "macro_recall": 0.763157894736842,
+  "macro_f1": 0.752990851513019,
+  "confusion_matrix": [
+    [
+      30,
+      27
+    ],
+    [
+      0,
+      60
+    ]
+  ],
+  "notes": "Exploratory validation on Mendeley Fresh and Rotten labels. Not independently verified internal egg freshness."
+}

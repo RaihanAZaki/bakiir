@@ -1,0 +1,308 @@
+{
+  "Model_G": {
+    "rotations": [
+      {
+        "angle": 0,
+        "accuracy": 0.9438202247191011,
+        "macro_precision": 0.9434378295465439,
+        "macro_recall": 0.9434378295465439,
+        "macro_f1": 0.9434378295465439,
+        "confusion_matrix": [
+          [
+            52,
+            5,
+            0
+          ],
+          [
+            5,
+            56,
+            0
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      },
+      {
+        "angle": 45,
+        "accuracy": 0.9157303370786517,
+        "macro_precision": 0.9164746543778802,
+        "macro_recall": 0.9161154251749593,
+        "macro_f1": 0.9152481505422682,
+        "confusion_matrix": [
+          [
+            52,
+            5,
+            0
+          ],
+          [
+            10,
+            51,
+            0
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      },
+      {
+        "angle": 90,
+        "accuracy": 0.898876404494382,
+        "macro_precision": 0.8974594957338701,
+        "macro_recall": 0.8981880931837791,
+        "macro_f1": 0.8977816441931274,
+        "confusion_matrix": [
+          [
+            48,
+            8,
+            1
+          ],
+          [
+            9,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      },
+      {
+        "angle": 135,
+        "accuracy": 0.9325842696629213,
+        "macro_precision": 0.9341991341991341,
+        "macro_recall": 0.9332758124820247,
+        "macro_f1": 0.932183908045977,
+        "confusion_matrix": [
+          [
+            54,
+            3,
+            0
+          ],
+          [
+            9,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      },
+      {
+        "angle": 180,
+        "accuracy": 0.9157303370786517,
+        "macro_precision": 0.9155172413793103,
+        "macro_recall": 0.9157319528329019,
+        "macro_f1": 0.9152481505422682,
+        "confusion_matrix": [
+          [
+            51,
+            6,
+            0
+          ],
+          [
+            9,
+            52,
+            0
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      },
+      {
+        "angle": 270,
+        "accuracy": 0.8820224719101124,
+        "macro_precision": 0.8838734567901234,
+        "macro_recall": 0.8825615952449429,
+        "macro_f1": 0.8812791951131872,
+        "confusion_matrix": [
+          [
+            50,
+            7,
+            0
+          ],
+          [
+            14,
+            47,
+            0
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      }
+    ],
+    "mean_rotation_accuracy": 0.9147940074906368,
+    "mean_rotation_macro_f1": 0.9141964796638953,
+    "external_photo_count": 4,
+    "external_distinct_classes": 2,
+    "external_majority_agreement": 0.5
+  },
+  "Model_H": {
+    "rotations": [
+      {
+        "angle": 0,
+        "accuracy": 0.949438202247191,
+        "macro_precision": 0.9495062793596012,
+        "macro_recall": 0.9496692551049755,
+        "macro_f1": 0.949005283365838,
+        "confusion_matrix": [
+          [
+            54,
+            2,
+            1
+          ],
+          [
+            6,
+            55,
+            0
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      },
+      {
+        "angle": 45,
+        "accuracy": 0.9044943820224719,
+        "macro_precision": 0.9092711103318626,
+        "macro_recall": 0.9055699357683826,
+        "macro_f1": 0.9035556707397063,
+        "confusion_matrix": [
+          [
+            53,
+            3,
+            1
+          ],
+          [
+            13,
+            48,
+            0
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      },
+      {
+        "angle": 90,
+        "accuracy": 0.9101123595505618,
+        "macro_precision": 0.9091995221027479,
+        "macro_recall": 0.909117054932413,
+        "macro_f1": 0.908840067576573,
+        "confusion_matrix": [
+          [
+            48,
+            8,
+            1
+          ],
+          [
+            6,
+            54,
+            1
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      },
+      {
+        "angle": 135,
+        "accuracy": 0.898876404494382,
+        "macro_precision": 0.9081828621208521,
+        "macro_recall": 0.9004889272361231,
+        "macro_f1": 0.8976383638602154,
+        "confusion_matrix": [
+          [
+            54,
+            2,
+            1
+          ],
+          [
+            15,
+            46,
+            0
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      },
+      {
+        "angle": 180,
+        "accuracy": 0.8707865168539326,
+        "macro_precision": 0.8685620915032679,
+        "macro_recall": 0.8685648547598505,
+        "macro_f1": 0.8661932622744007,
+        "confusion_matrix": [
+          [
+            42,
+            7,
+            8
+          ],
+          [
+            8,
+            53,
+            0
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      },
+      {
+        "angle": 270,
+        "accuracy": 0.8876404494382022,
+        "macro_precision": 0.8890913367357459,
+        "macro_recall": 0.8884095484613171,
+        "macro_f1": 0.8864240491034749,
+        "confusion_matrix": [
+          [
+            51,
+            6,
+            0
+          ],
+          [
+            13,
+            47,
+            1
+          ],
+          [
+            0,
+            0,
+            60
+          ]
+        ]
+      }
+    ],
+    "mean_rotation_accuracy": 0.903558052434457,
+    "mean_rotation_macro_f1": 0.9019427828200347,
+    "external_photo_count": 4,
+    "external_distinct_classes": 3,
+    "external_majority_agreement": 0.5
+  }
+}

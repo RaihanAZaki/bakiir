@@ -1,0 +1,260 @@
+{
+  "model": "binary_rotation_robust",
+  "test_angles": [
+    0,
+    45,
+    90,
+    135,
+    180,
+    270
+  ],
+  "tta_angles": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "validation_count": 117,
+  "rotations": [
+    {
+      "angle": 0,
+      "method": "original",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "fresh_recall": 1.0,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "angle": 0,
+      "method": "nearest_tta",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "fresh_recall": 1.0,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "angle": 45,
+      "method": "original",
+      "accuracy": 0.9743589743589743,
+      "macro_f1": 0.9743589743589743,
+      "fresh_recall": 1.0,
+      "rotten_recall": 0.95,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          3,
+          57
+        ]
+      ]
+    },
+    {
+      "angle": 45,
+      "method": "nearest_tta",
+      "accuracy": 0.9743589743589743,
+      "macro_f1": 0.9743589743589743,
+      "fresh_recall": 1.0,
+      "rotten_recall": 0.95,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          3,
+          57
+        ]
+      ]
+    },
+    {
+      "angle": 90,
+      "method": "original",
+      "accuracy": 0.9914529914529915,
+      "macro_f1": 0.9914429898339794,
+      "fresh_recall": 0.9824561403508771,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          56,
+          1
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "angle": 90,
+      "method": "nearest_tta",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "fresh_recall": 1.0,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "angle": 135,
+      "method": "original",
+      "accuracy": 0.8461538461538461,
+      "macro_f1": 0.8435828877005347,
+      "fresh_recall": 1.0,
+      "rotten_recall": 0.7,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          18,
+          42
+        ]
+      ]
+    },
+    {
+      "angle": 135,
+      "method": "nearest_tta",
+      "accuracy": 0.9743589743589743,
+      "macro_f1": 0.9743589743589743,
+      "fresh_recall": 1.0,
+      "rotten_recall": 0.95,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          3,
+          57
+        ]
+      ]
+    },
+    {
+      "angle": 180,
+      "method": "original",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "fresh_recall": 1.0,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "angle": 180,
+      "method": "nearest_tta",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "fresh_recall": 1.0,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "angle": 270,
+      "method": "original",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "fresh_recall": 1.0,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    },
+    {
+      "angle": 270,
+      "method": "nearest_tta",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "fresh_recall": 1.0,
+      "rotten_recall": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          60
+        ]
+      ]
+    }
+  ],
+  "averages": {
+    "original": {
+      "mean_accuracy": 0.9686609686609687,
+      "mean_macro_f1": 0.9682308086489148,
+      "mean_rotten_recall": 0.9416666666666668
+    },
+    "nearest_tta": {
+      "mean_accuracy": 0.9914529914529915,
+      "mean_macro_f1": 0.9914529914529915,
+      "mean_rotten_recall": 0.9833333333333334
+    }
+  },
+  "external_photo_count": 4,
+  "external": {
+    "original": {
+      "majority_agreement": 1.0,
+      "distinct_classes": 1
+    },
+    "nearest_tta": {
+      "majority_agreement": 1.0,
+      "distinct_classes": 1
+    }
+  },
+  "notes": "Exploratory evaluation on reused validation images. Physical egg freshness unverified."
+}
